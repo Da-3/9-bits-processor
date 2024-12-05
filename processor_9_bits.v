@@ -1,11 +1,11 @@
 module processor_9_bits #(parameter mv =3'b000,
                           parameter mvi=3'b001,
-						        parameter add=3'b010,
-						        parameter sub=3'b011,
-						        parameter T0 =2'b00,
-						        parameter T1 =2'b01,
-						        parameter T2 =2'b10,
-						        parameter T3 =2'b11)
+			  parameter add=3'b010,
+			  parameter sub=3'b011,
+			  parameter T0 =2'b00,
+			  parameter T1 =2'b01,
+			  parameter T2 =2'b10,
+			  parameter T3 =2'b11)
 (clock,aResetn,Run,DataIn,Bus_Wires,Done);
 input clock;
 input aResetn;
